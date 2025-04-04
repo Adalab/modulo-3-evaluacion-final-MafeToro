@@ -7,6 +7,7 @@ return fetch ("https://rickandmortyapi.com/api/character")
             name: character.name,
             image: character.image,
             status: character.status,
+            id: character.id
         }
     })
     return parsedCharacters
